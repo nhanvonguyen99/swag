@@ -886,7 +886,13 @@ loopline:
 
 		if strings.HasPrefix(securityAttr, "@x-") {
 			// Add the custom attribute without the @
-			extensions[securityAttr[1:]] = value
+			var valueJSON interface{}
+
+			err := json.Unmarshal([]byte(value), &valueJSON)
+			if err != nil {
+				return nil, fmt.Errorf("annotation %s need a valid json value. error: %s", attribute, err.Error())
+			}
+			extensions[securityAttr[1:]] = valueJSON
 			continue
 		}
 
