@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/nhanvonguyen/swag/v2/testdata/generics_arrays/types"
-	"github.com/nhanvonguyen/swag/v2/testdata/generics_arrays/web"
+	"github.com/nhanvonguyen99/swag/v2/testdata/generics_arrays/types"
+	"github.com/nhanvonguyen99/swag/v2/testdata/generics_arrays/web"
 )
 
 // @Summary List Posts

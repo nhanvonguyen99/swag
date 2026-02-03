@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/nhanvonguyen/swag/v2/example/basic/web"
+	"github.com/nhanvonguyen99/swag/v2/example/basic/web"
 )
 
 // GetStringByInt example

@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	mytypes "github.com/nhanvonguyen/swag/v2/testdata/generics_names/types"
-	myweb "github.com/nhanvonguyen/swag/v2/testdata/generics_names/web"
+	mytypes "github.com/nhanvonguyen99/swag/v2/testdata/generics_names/types"
+	myweb "github.com/nhanvonguyen99/swag/v2/testdata/generics_names/web"
 )
 
 // @Summary Add a new pet to the store

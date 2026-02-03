@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/nhanvonguyen/swag/v2/example/basic/api"
-	internalapi "github.com/nhanvonguyen/swag/v2/testdata/golist_disablemodule/api"
+	"github.com/nhanvonguyen99/swag/v2/example/basic/api"
+	internalapi "github.com/nhanvonguyen99/swag/v2/testdata/golist_disablemodule/api"
 )
 
 // @title Swagger Example API
