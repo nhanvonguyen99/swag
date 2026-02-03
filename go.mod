@@ -1,4 +1,4 @@
-module github.com/swaggo/swag/v2
+module github.com/nhanvonguyen/swag/v2
 
 go 1.18
 
@@ -7,6 +7,7 @@ require (
 	github.com/go-openapi/spec v0.20.9
 	github.com/stretchr/testify v1.9.0
 	github.com/sv-tools/openapi v0.4.0
+	github.com/swaggo/swag/v2 v2.0.0-rc5
 	github.com/urfave/cli/v2 v2.27.5
 	golang.org/x/text v0.15.0
 	golang.org/x/tools v0.8.0
